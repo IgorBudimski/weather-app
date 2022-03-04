@@ -1,0 +1,32 @@
+.quotesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    margin-bottom: 3vh;
+    border-radius: 10px;
+    padding: 2vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+.quote {
+    color: rgb(255, 255, 255);
+    max-width: 25vw;
+    font-weight: 700;
+    font-size: 2.2vh;
+    margin-bottom: 1vh;
+    text-shadow: 1px 1px rgb(173, 173, 173);
+}
+
+.author {
+    color: rgb(255, 255, 255);
+    max-width: 25vw;
+    margin-left: 17vw;
+    font-size: 1.5vh;
+    font-weight: 500;
+    font-style: italic;
+    text-shadow: 1px 1px #cacaca;
+}

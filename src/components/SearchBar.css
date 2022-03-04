@@ -1,0 +1,77 @@
+.searchContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2px;
+  padding: 3%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 3px 10px -3px rgba(0, 0, 0, 0.46);
+  margin-bottom: 5%;
+}
+
+.searchBar {
+  min-width: 17vw;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+.searchBar:focus {
+  outline: none;
+  background-color: white;
+}
+
+.searchWrapper, .searchWrapperActive {
+  display: grid;
+  grid-template-columns: auto auto;
+  border-radius: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.searchWrapperActive {
+  border: 1px solid rgb(65, 138, 223);
+}
+
+.searchWrapper:hover {
+  border-radius: 5px;
+  border: 1px solid rgb(204, 216, 247);
+}
+
+.spinner {
+  height: 20px;
+  width: 20px;
+}
+
+input:-webkit-autofill {
+  border: none;
+  -webkit-text-fill-color: rgb(0, 0, 0);
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.iconWrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.error::-webkit-input-placeholder {
+  color: #f70b0b
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .spinner {
+    animation: spinner-spin infinite 500ms linear;
+  }
+}
+
+@keyframes spinner-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

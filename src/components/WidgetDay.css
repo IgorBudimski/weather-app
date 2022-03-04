@@ -1,0 +1,45 @@
+.average {
+    font-size: 8vh;
+}
+
+.averageWrapper {
+    grid-column: 1 / 8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tempWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.average, .current, .currentExp, .exp {
+    display: inline-block;
+    font-weight: bold;
+    vertical-align: top;
+    color: white;
+}
+
+.current {
+    font-size: 4vh;
+}
+
+.title {
+    font-size: 1.5vh;
+    font-weight: bold;
+    color: rgb(74, 104, 128);
+}
+
+.exp {
+    font-size: 3vh;
+    padding-top: 1.8vh;
+}
+
+.currentExp {
+    font-size: 2vh;
+    padding-top: .7vh;
+}

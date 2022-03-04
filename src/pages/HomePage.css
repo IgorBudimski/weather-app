@@ -1,0 +1,23 @@
+.homeContainer {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: cadetblue;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgDefault {
+    width: 50px;
+    height: 40px;
+}
+
+.imgWrapper {
+    background-color: white;
+}
+
